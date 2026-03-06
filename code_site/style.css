@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'Comfortaa', sans-serif;
+    overflow-x: hidden;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+*{
+    margin: 0;
+}
+.itens{
+    display: flex;
+    gap: 30px;
+}
+
+.botao{
+    background-color: rgb(190, 87, 18);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+
+.descricao{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    flex-direction: column;
+
+}
+
+.hero{
+    width: 100vw;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) , transparent),url("assets/capa.jpeg");
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero h1{
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.hero p{
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+}
+
+.pesquisa{
+    padding: 1vh 5vw 1vh 1vw;
+    border: none;
+    outline: orange;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.input_container{
+    padding: 1vw;
+    border-radius: 10px;
+    background-color: rgb(151, 143, 143);
+}
+
+.livros{
+    height: 100vh;
+    background-color: rgb(223, 223, 231);
+}
+
+.card {
+    background-color: white;
+    width: 200px;  
+    border-radius: 15px;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.imagemCard{
+    width: 100%;
+    height: 50vh;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover; 
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card h2{
+    margin-top: -20px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.botao_livro{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: rgb(190, 87, 18);
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(241, 213, 213);
+    padding-block: 10px;
+    padding-inline: 40%;
+}
+.botao_livro:hover{
+    background-color: rgba(255, 152, 18, 0.667);
+    cursor: pointer;
+    color: black;
+}
+
+.textos{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px  ;
+
+}
+
+.textos p{
+    color: rgb(189, 87, 15);
+
+}
+
+.textos p:hover{
+    cursor: pointer;
+}
+
+.textos_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:  rgb(247, 237, 235);;
+}
+
+.card_2{
+     background-color: white;
+    width: 300px;  
+    border-radius: 15px;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+    height: 200px;
+}
+
+.cards_2{
+   background-color: rgb(247, 237, 235);
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   
+}
+
+.descr_book{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.register{
+    justify-content: start;
+    color: rgb(190, 90, 17);
+}
+
+.descr_book p{
+    margin-top: 15px;
+
+}
+
+.cardzinho{
+    background-color: rgb(248, 238, 231);
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: rgb(190, 90, 17);
+
+}
+
+.stay{
+    display: flex;
+    width: 100%;
+    padding-left: 35px;
+    padding-top: 50px;
+     background-color:  rgb(247, 237, 235);
+     color: rgb(189, 89, 16);
+}
+
+.textos_3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(248, 247, 246);
+    padding: 100px;
+
+}
+
+.card_3{
+    background-color:  rgb(248, 247, 246);
+    width: 300px;  
+    border-radius: 15px;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    height: 200px;
+    padding-top: 30px;
+
+}
+
+.cards_3{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(248, 247, 246);
+}
+
+.card_3 p{
+    margin-top: 30px;
+
+}
+
+.imagemCard3{
+    background-color: rgb(189, 88, 15);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemCard3 img{
+    width: 30px;
+}
+
+.span_gateway{
+    color: rgb(190, 88, 15);
+
+}
+
+.principal_card{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    padding: 50px;
+    justify-content: space-around;
+    background-color: rgb(34, 24, 16);
+    color: white;
+}
+
+.img_card img{
+    width: 150px;
+}
+
+.img_card p{
+    width: 300px;
+    margin-top: 40px;
+}
+
+.div_twitter{
+    width: 50px;
+    height: 50px;
+    background-color: #1E293B;
+    border-radius: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.div_twitter img{
+    width: 30px;
+}
+
+.div_insta img{
+     width: 30px;
+    
+}
+
+.div_insta{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #1E293B;
+    border-radius: 100%;
+    margin-left: 70px;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.descr_contact{
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+.linha_contato{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.linha_contato img{
+    width: 18px;
+}
+
+.card_hours{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.linha_hours{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.card_links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.linha_links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color: #221810;
+    color: white;
+    margin-top: -20px;
+    height: 80px;
+    border-top: 2px solid #202229;
+    align-items: center;
+    
+}
+
